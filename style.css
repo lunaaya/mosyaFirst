@@ -1,0 +1,337 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 740px;
+    background-image: url(./img/main.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-show {
+    display: flex;
+}
+
+.header-left a img {
+    width: 135px;
+    padding-top: 30px;
+}
+
+.header-nav {
+    margin: 0 0 0 auto;
+}
+
+.gnav {
+    display: flex;
+}
+
+.gnav li {
+    margin-top: 50px;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.gnav li a:hover {
+    opacity: 0.5;
+}
+
+.header-bottom p {
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    padding-top: 290px;
+}
+
+.content-one {
+    width: 47%;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 38px;
+    color: #000000;
+    text-align: center;
+    padding-top: 96px;
+}
+
+.news {
+    padding-top: 100px;
+}
+
+
+.news  li a:hover {
+    opacity: 0.5;
+}
+
+.news li {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;
+
+}
+
+.top-box {
+    font-size: 18px;
+    color: #000000;
+}
+
+.news-box {
+    margin-left: 33px;
+    font-size: 11px;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.text-box {
+    font-size: 18px;
+    color: #000000;
+    padding-left: 30px;
+}
+
+.content-main {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 95px 0 0 300px;
+    display: flex;
+}
+
+.image-one {
+    width: 430px;
+    height: 280px;
+}
+
+.cotent-left {
+    padding-right: 122px;
+}
+
+
+.heading-two {
+    font-size: 24px;
+    padding-top: 33px;
+}
+
+.heading-text {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.text-size {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.small-box {
+    padding-top: 30px;
+}
+
+.small-text {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 17px 0;
+}
+
+.small-box a {
+    display: inline-block;
+    width: 300px;
+}
+
+.small-box a:hover {
+    opacity: 0.5;
+}
+
+.skill-box {
+    width: 11%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skill-text {
+    font-size: 20px;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 15px 40px;
+}
+
+.skill-text:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.last-image {
+    display: flex;
+    margin-top: 180px;
+}
+
+.last-image img {
+    width: 33.333333333%;
+    transition: 0.3s;
+}
+
+.last-image img:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.footer-show {
+    display: flex;
+}
+
+.footer-left a img {
+    width: 95px;
+    padding-top: 30px;
+}
+
+.footer-nav {
+    margin: 0 0 0 auto;
+}
+
+.footer-gnav {
+    display: flex;
+}
+
+.footer-gnav li {
+    margin-top: 50px;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.footer-gnav li a {
+    color: white;
+}
+
+.footer-gnav li a:hover {
+    opacity: 0.5;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 10px;
+}
